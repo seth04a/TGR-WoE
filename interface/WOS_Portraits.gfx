@@ -1,0 +1,6 @@
+spritetypes = {
+    spritetype = {
+        name = "GFX_portrait_WOS_Claus_Von_Stauffenberg"
+        texturefile = "gfx/leaders/WOS/Portrait_WOS_Claus_Von_Stauffenberg.png"
+    }
+}

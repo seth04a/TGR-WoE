@@ -1,0 +1,15 @@
+characters={
+    WOS_stauffenberg={
+		name=WOS_stauffenberg
+		portraits={
+			civilian={
+				large=GFX_portrait_WOS_Claus_Von_Stauffenberg
+			}
+		}
+		country_leader={
+			ideology=rexism
+            traits = { }
+			expire="1965.1.1.1"
+		}
+	}
+}
