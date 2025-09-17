@@ -1,0 +1,15 @@
+characters={
+    LIM_Louis_Roppen={
+		name=LIM_Louis_Roppen
+		portraits={
+			civilian={
+				large=GFX_portrait_Louis_Roppen
+			}
+		}
+		country_leader={
+			ideology=socialism
+            traits = { pro_allied_governor_general_2 }
+			expire="2000.1.1.1"
+		}
+	}
+}

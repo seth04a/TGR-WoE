@@ -1,1 +1,0 @@
-WOS = "countries/Wolfschanze.txt"

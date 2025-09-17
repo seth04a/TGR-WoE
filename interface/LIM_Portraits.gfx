@@ -1,0 +1,6 @@
+spritetypes = {
+    spritetype = {
+        name = "GFX_portrait_Louis_Roppen"
+        texturefile = "gfx/leaders/LIM/Portrait_LIM_Louis.png"
+    }
+}

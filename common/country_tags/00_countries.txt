@@ -1,1 +1,4 @@
 ###Base Tags - do not remove
+WOS = "countries/Wolfschanze.txt"
+ROT = "countries/Rotterdam.txt"
+LIM = "countries/Limburg.txt"

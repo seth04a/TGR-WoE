@@ -7306,7 +7306,7 @@ leader_traits = {
 		democratic_acceptance = 50
 		political_power_factor = 0.08
 		war_support_factor = 0.05
-		compliance_gain = -0.1
+		compliance_gain = 0.1
 		
 		ai_will_do = {
 			factor = 0

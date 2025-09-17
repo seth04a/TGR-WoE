@@ -1,13 +1,13 @@
 characters={
-    WOS_stauffenberg={
-		name=WOS_stauffenberg
+    ROT_Simonds={
+		name=ROT_Simonds
 		portraits={
 			civilian={
-				large=GFX_portrait_WOS_Claus_Von_Stauffenberg
+				large=GFX_portrait_ROT_Simonds
 			}
 		}
 		country_leader={
-			ideology=rexism
+			ideology=falangism
             traits = { }
 			expire="2000.1.1.1"
 		}

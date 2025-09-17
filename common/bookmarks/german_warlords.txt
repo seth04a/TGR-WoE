@@ -1,0 +1,48 @@
+bookmarks = {
+	bookmark = {
+		name = "GERMAN_WARLORDS_NAME"
+		desc = "GERMAN_WARLORDSM_DESC"
+		date = 1963.1.1.12
+		picture = "GFX_select_Germany"
+		default_country = "WOS"
+		default = yes
+		
+		"WOS"={
+			history = "WOS_GERMAN_WARLORDS_DESC"
+			ideology = fascist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"ROT"={
+			history = "ROT_BENELUX_DESC"
+			ideology = fascist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"LIM"={
+			history = "LIM_BENELUX_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"---"={
+			history = "OTHER_GERMAN_WARLORDS_DESC"
+		}
+		
+		# minors from DLC ####
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
