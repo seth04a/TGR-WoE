@@ -1,0 +1,6 @@
+spritetypes = {
+    spritetype = {
+        name = "GFX_portrait_VLA_Leopold_III"
+        texturefile = "gfx/leaders/VLA/Portrait_VLA_leopold_iii.png"
+    }
+}

@@ -1,0 +1,6 @@
+spritetypes = {
+    spritetype = {
+        name = "GFX_portrait_BEL_Assembly"
+        texturefile = "gfx/leaders/BEL/Portrait_BEL_Parliament.png"
+    }
+}

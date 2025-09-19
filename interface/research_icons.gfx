@@ -1,0 +1,51 @@
+spriteTypes = {
+    	SpriteType = {
+		name = "GFX_basic_mining_5_medium"
+		texturefile = "gfx/interface/technologies/excavation5.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_basic_mining_4_medium"
+		texturefile = "gfx/interface/technologies/excavation4.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_basic_mining_3_medium"
+		texturefile = "gfx/interface/technologies/excavation3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_basic_mining_2_medium"
+		texturefile = "gfx/interface/technologies/excavation2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_basic_mining_medium"
+		texturefile = "gfx/interface/technologies/excavation1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_basic_production_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_basic_production_2_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry2.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_basic_production_3_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_basic_production_4_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry4.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_basic_production_5_medium"
+		texturefile = "gfx/interface/technologies/concentrated_industry5.dds"
+	}	
+}

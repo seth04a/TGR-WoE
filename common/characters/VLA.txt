@@ -1,0 +1,15 @@
+characters={
+    VLA_leopold_iii={
+		name=VLA_leopold_iii
+		portraits={
+			civilian={
+				large=GFX_portrait_VLA_Leopold_III
+			}
+		}
+		country_leader={
+			ideology=despotism
+            traits = { }
+			expire="2000.1.1.1"
+		}
+	}
+}

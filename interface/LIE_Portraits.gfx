@@ -1,0 +1,6 @@
+spritetypes = {
+    spritetype = {
+        name = "GFX_portrait_LIE_Mottard"
+        texturefile = "gfx/leaders/LIE/Portrait_LIE_Mottard.png"
+    }
+}

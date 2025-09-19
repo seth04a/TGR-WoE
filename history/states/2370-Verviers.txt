@@ -3,15 +3,11 @@ state={
 	id=2370
 	name="STATE_2370"
 	history={
-		owner = BEL
-		add_core_of = BEL
+		owner = LIE
+		add_core_of = LIE
 		buildings = {
 			infrastructure = 2
-			12503 = { bunker = 5 }
-			12549 = { bunker = 1 }
 		}
-		add_core_of = WLN
-		add_core_of = LEG
 		victory_points = {
             12503 5 #Verviers
         }

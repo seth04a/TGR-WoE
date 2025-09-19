@@ -16,3 +16,19 @@
  LIM:0 "Limburg"
  LIM_DEF:0 "Limburg"
  LIM_ADJ:0 "Limburgs"
+
+ VLA:0 "Koninkrijk Vlaanderen"
+ VLA_DEF:0 "Het Koninkrijk van Vlaanderen"
+ VLA_adj:0 "Vlaams"
+
+ LIE:0 "Commune de Liège"
+ LIE_DEF:0 "La Commune de Liège"
+ LIE_ADJ:0 "Lièger"
+
+ LUX:0 "Groussherzogtum Lëtzebuerg"
+ LUX_DEF:0 "Groussherzogtum Lëtzebuerg"
+ LUX_ADJ:0 "Lëtzebuerger"
+
+ BEL:0 "Belgisch Syndicaat"
+ BEL_DEF:0 "Het Syndicaat van België"
+ BEL_ADJ:0 "Syndicaat Belgisch"

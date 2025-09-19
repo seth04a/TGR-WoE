@@ -1,0 +1,15 @@
+characters={
+    BEL_Parliament={
+		name=BEL_Parliament
+		portraits={
+			civilian={
+				large=GFX_portrait_BEL_Assembly
+			}
+		}
+		country_leader={
+			ideology=stalinism
+            traits = { }
+			expire="2000.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,15 @@
+characters={
+    LUX_Charlotte={
+		name=LUX_Charlotte
+		portraits={
+			civilian={
+				large=GFX_portrait_LUX_Charlotte
+			}
+		}
+		country_leader={
+			ideology=despotism
+            traits = { }
+			expire="2000.1.1.1"
+		}
+	}
+}

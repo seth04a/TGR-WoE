@@ -1,0 +1,513 @@
+technologies = {
+
+    	basic_mining = {
+		research_cost = 1
+
+		path = {
+			leads_to_tech = basic_mining_2
+			research_cost_coeff = 1
+		}
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = iron_mine
+				resource = steel
+				amount = 5
+			}
+			modify_building_resources = {
+				building = oil_well
+				resource = oil
+				amount = 5
+			}
+			modify_building_resources = {
+				building = rubber_plantation
+				resource = rubber
+				amount = 5
+			}
+			modify_building_resources = {
+				building = bauxite_mine
+				resource = aluminium
+				amount = 5
+			}
+			modify_building_resources = {
+				building = tungsten_mine
+				resource = tungsten
+				amount = 5
+			}
+			modify_building_resources = {
+				building = chromium_mine
+				resource = chromium
+				amount = 5
+			}
+		}
+
+		folder = {
+			name = industry_folder
+			position = { x = 5 y = 2 }
+		}
+
+		categories = {
+			industry
+			synth_resources
+		}
+	}
+
+	basic_production = {
+		research_cost = 3
+
+		path = {
+			leads_to_tech = basic_production_2
+			research_cost_coeff = 1
+		}
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = steel_mill
+				resource = steel
+				amount = 25
+			}
+			modify_building_resources = {
+				building = industrial_refinery
+				resource = oil
+				amount = 25
+			}
+			modify_building_resources = {
+				building = vulcanization_plant
+				resource = rubber
+				amount = 25
+			}
+			modify_building_resources = {
+				building = aluminum_mill
+				resource = aluminium
+				amount = 25
+			}
+			modify_building_resources = {
+				building = rare_earth_refinery
+				resource = tungsten
+				amount = 25
+			}
+			modify_building_resources = {
+				building = rare_earth_refinery
+				resource = chromium
+				amount = 25
+			}
+		}
+
+		folder = {
+			name = industry_folder
+			position = { x = 7 y = 2 }
+		}
+
+		categories = {
+			industry
+			synth_resources
+		}
+	}
+
+	basic_mining_2 = {
+		research_cost = 1
+
+		path = {
+			leads_to_tech = basic_mining_3
+			research_cost_coeff = 1
+		}
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = iron_mine
+				resource = steel
+				amount = 5
+			}
+			modify_building_resources = {
+				building = oil_well
+				resource = oil
+				amount = 5
+			}
+			modify_building_resources = {
+				building = rubber_plantation
+				resource = rubber
+				amount = 5
+			}
+			modify_building_resources = {
+				building = bauxite_mine
+				resource = aluminium
+				amount = 5
+			}
+			modify_building_resources = {
+				building = tungsten_mine
+				resource = tungsten
+				amount = 5
+			}
+			modify_building_resources = {
+				building = chromium_mine
+				resource = chromium
+				amount = 5
+			}
+		}
+
+		folder = {
+			name = industry_folder
+			position = { x = 5 y = 4 }
+		}
+
+		categories = {
+			industry
+			synth_resources
+		}
+	}
+
+	basic_production_2 = {
+		research_cost = 3
+
+		path = {
+			leads_to_tech = basic_production_3
+			research_cost_coeff = 1
+		}
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = steel_mill
+				resource = steel
+				amount = 25
+			}
+			modify_building_resources = {
+				building = industrial_refinery
+				resource = oil
+				amount = 25
+			}
+			modify_building_resources = {
+				building = vulcanization_plant
+				resource = rubber
+				amount = 25
+			}
+			modify_building_resources = {
+				building = aluminum_mill
+				resource = aluminium
+				amount = 25
+			}
+			modify_building_resources = {
+				building = rare_earth_refinery
+				resource = tungsten
+				amount = 25
+			}
+			modify_building_resources = {
+				building = rare_earth_refinery
+				resource = chromium
+				amount = 25
+			}
+		}
+
+		folder = {
+			name = industry_folder
+			position = { x = 7 y = 4 }
+		}
+
+		categories = {
+			industry
+			synth_resources
+		}
+	}
+
+	basic_mining_3 = {
+		research_cost = 1
+
+		path = {
+			leads_to_tech = basic_mining_4
+			research_cost_coeff = 1
+		}
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = iron_mine
+				resource = steel
+				amount = 5
+			}
+			modify_building_resources = {
+				building = oil_well
+				resource = oil
+				amount = 5
+			}
+			modify_building_resources = {
+				building = rubber_plantation
+				resource = rubber
+				amount = 5
+			}
+			modify_building_resources = {
+				building = bauxite_mine
+				resource = aluminium
+				amount = 5
+			}
+			modify_building_resources = {
+				building = tungsten_mine
+				resource = tungsten
+				amount = 5
+			}
+			modify_building_resources = {
+				building = chromium_mine
+				resource = chromium
+				amount = 5
+			}
+		}
+
+		folder = {
+			name = industry_folder
+			position = { x = 5 y = 6 }
+		}
+
+		categories = {
+			industry
+			synth_resources
+		}
+	}
+
+	basic_production_3 = {
+		research_cost = 3
+
+		path = {
+			leads_to_tech = basic_production_4
+			research_cost_coeff = 1
+		}
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = steel_mill
+				resource = steel
+				amount = 25
+			}
+			modify_building_resources = {
+				building = industrial_refinery
+				resource = oil
+				amount = 25
+			}
+			modify_building_resources = {
+				building = vulcanization_plant
+				resource = rubber
+				amount = 25
+			}
+			modify_building_resources = {
+				building = aluminum_mill
+				resource = aluminium
+				amount = 25
+			}
+			modify_building_resources = {
+				building = rare_earth_refinery
+				resource = tungsten
+				amount = 25
+			}
+			modify_building_resources = {
+				building = rare_earth_refinery
+				resource = chromium
+				amount = 25
+			}
+		}
+
+		folder = {
+			name = industry_folder
+			position = { x = 7 y = 6 }
+		}
+
+		categories = {
+			industry
+			synth_resources
+		}
+	}
+
+	basic_mining_4 = {
+		research_cost = 1
+
+		path = {
+			leads_to_tech = basic_mining_5
+			research_cost_coeff = 1
+		}
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = iron_mine
+				resource = steel
+				amount = 5
+			}
+			modify_building_resources = {
+				building = oil_well
+				resource = oil
+				amount = 5
+			}
+			modify_building_resources = {
+				building = rubber_plantation
+				resource = rubber
+				amount = 5
+			}
+			modify_building_resources = {
+				building = bauxite_mine
+				resource = aluminium
+				amount = 5
+			}
+			modify_building_resources = {
+				building = tungsten_mine
+				resource = tungsten
+				amount = 5
+			}
+			modify_building_resources = {
+				building = chromium_mine
+				resource = chromium
+				amount = 5
+			}
+		}
+
+		folder = {
+			name = industry_folder
+			position = { x = 5 y = 8 }
+		}
+
+		categories = {
+			industry
+			synth_resources
+		}
+	}
+
+	basic_production_4 = {
+		research_cost = 3
+
+		path = {
+			leads_to_tech = basic_production_5
+			research_cost_coeff = 1
+		}
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = steel_mill
+				resource = steel
+				amount = 25
+			}
+			modify_building_resources = {
+				building = industrial_refinery
+				resource = oil
+				amount = 25
+			}
+			modify_building_resources = {
+				building = vulcanization_plant
+				resource = rubber
+				amount = 25
+			}
+			modify_building_resources = {
+				building = aluminum_mill
+				resource = aluminium
+				amount = 25
+			}
+			modify_building_resources = {
+				building = rare_earth_refinery
+				resource = tungsten
+				amount = 25
+			}
+			modify_building_resources = {
+				building = rare_earth_refinery
+				resource = chromium
+				amount = 25
+			}
+		}
+
+		folder = {
+			name = industry_folder
+			position = { x = 7 y = 8 }
+		}
+
+		categories = {
+			industry
+			synth_resources
+		}
+	}
+
+	basic_mining_5 = {
+		research_cost = 1
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = iron_mine
+				resource = steel
+				amount = 5
+			}
+			modify_building_resources = {
+				building = oil_well
+				resource = oil
+				amount = 5
+			}
+			modify_building_resources = {
+				building = rubber_plantation
+				resource = rubber
+				amount = 5
+			}
+			modify_building_resources = {
+				building = bauxite_mine
+				resource = aluminium
+				amount = 5
+			}
+			modify_building_resources = {
+				building = tungsten_mine
+				resource = tungsten
+				amount = 5
+			}
+			modify_building_resources = {
+				building = chromium_mine
+				resource = chromium
+				amount = 5
+			}
+		}
+
+		folder = {
+			name = industry_folder
+			position = { x = 5 y = 10 }
+		}
+
+		categories = {
+			industry
+			synth_resources
+		}
+	}
+
+	basic_production_5 = {
+		research_cost = 3
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = steel_mill
+				resource = steel
+				amount = 25
+			}
+			modify_building_resources = {
+				building = industrial_refinery
+				resource = oil
+				amount = 25
+			}
+			modify_building_resources = {
+				building = vulcanization_plant
+				resource = rubber
+				amount = 25
+			}
+			modify_building_resources = {
+				building = aluminum_mill
+				resource = aluminium
+				amount = 25
+			}
+			modify_building_resources = {
+				building = rare_earth_refinery
+				resource = tungsten
+				amount = 25
+			}
+			modify_building_resources = {
+				building = rare_earth_refinery
+				resource = chromium
+				amount = 25
+			}
+		}
+
+		folder = {
+			name = industry_folder
+			position = { x = 7 y = 10 }
+		}
+
+		categories = {
+			industry
+			synth_resources
+		}
+	}
+
+}

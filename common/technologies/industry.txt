@@ -764,7 +764,15 @@ technologies = {
 			leads_to_tech = fuel_refining 
 			research_cost_coeff = 1
 		}
-		
+		path = {
+			leads_to_tech = basic_mining
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = basic_production 
+			research_cost_coeff = 1
+		}
+
 		research_cost = 1
 		start_year = 1936
 		folder = {
@@ -1132,6 +1140,18 @@ technologies = {
 			synth_resources
 			cat_synth_oil
 		}
+
+		on_research_complete = {
+			# FIN effect from focus Tire Factory at Nokia
+			if = {
+				limit = {
+					tag = FIN
+					has_completed_focus = FIN_tire_factory_at_nokia
+					controls_state = 927
+				}
+				FIN_nokia_tires_after_tech_effect = yes
+			}
+		}
 		
 		ai_will_do = {
 			factor = 5
@@ -1139,8 +1159,10 @@ technologies = {
 				OR = {
 					tag = GER
 					tag = ITA
+					tag = JAP
 				}
-				factor = 25
+				has_war = yes
+				factor = 5
 			}
 			modifier = {
 				factor = 0.5
@@ -1191,12 +1213,10 @@ technologies = {
 				OR = {
 					tag = GER
 					tag = ITA
+					tag = JAP
 				}
-				factor = 15
-			}
-			modifier = {
-				factor = 2
-				check_variable = { resource_imported@oil > 20.0 }
+				has_war = yes
+				factor = 25
 			}
 			modifier = {
 				factor = 0.5
@@ -1210,6 +1230,11 @@ technologies = {
 				factor = 0.5
 				oil > 30
 			}			
+			modifier = {
+				factor = 25
+				original_tag = GER	
+				date > "1937.1.1"	
+			}
 		}
 		
 		ai_research_weights = {
@@ -1248,12 +1273,10 @@ technologies = {
 				OR = {
 					tag = GER
 					tag = ITA
+					tag = JAP
 				}
-				factor = 15
-			}
-			modifier = {
-				factor = 2
-				check_variable = { resource_imported@oil > 20.0 }
+				has_war = yes
+				factor = 25
 			}
 			modifier = {
 				factor = 0.5
@@ -1310,24 +1333,22 @@ technologies = {
 				OR = {
 					tag = GER
 					tag = ITA
+					tag = JAP
 				}
-				factor = 15
-			}
-			modifier = {
-				factor = 2
-				check_variable = { resource_imported@oil > 20.0 }
+				has_war = yes
+				factor = 25
 			}
 			modifier = {
 				factor = 0.5
-				oil > 10
+				rubber > 10
 			}
 			modifier = {
 				factor = 0.5
-				oil > 20
+				rubber > 20
 			}	
 			modifier = {
 				factor = 0.5
-				oil > 30
+				rubber > 30
 			}			
 		}
 		
@@ -1358,17 +1379,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 0.5
-			modifier = {
-				OR = {
-					tag = GER
-					tag = ITA
-				}
-				factor = 15
-			}
-			modifier = {
-				factor = 2
-				check_variable = { resource_imported@oil > 20.0 }
-			}
 			modifier = {
 				factor = 0.5
 				oil > 10
@@ -1427,22 +1437,8 @@ technologies = {
 					tag = GER
 					tag = ITA
 				}
+				has_war = yes
 				factor = 15
-			}
-			modifier = {
-				factor = 2
-				synthetic_refinery > 5
-			}
-			modifier = {
-				factor = 2
-				OR = {
-					check_variable = { resource@rubber < 0 }
-					check_variable = { resource_imported@rubber > 20.0 }
-				}
-			}
-			modifier = {
-				factor = 2
-				synthetic_refinery > 10
 			}
 			modifier = {
 				factor = 0.5
@@ -1456,6 +1452,11 @@ technologies = {
 				factor = 0.5
 				rubber > 30
 			}			
+			modifier = {
+				factor = 25
+				original_tag = GER	
+				date > "1938.1.1"	
+			}
 		}
 		
 		ai_research_weights = {
@@ -1501,22 +1502,8 @@ technologies = {
 					tag = GER
 					tag = ITA
 				}
+				has_war = yes
 				factor = 15
-			}
-			modifier = {
-				factor = 2
-				synthetic_refinery > 5
-			}
-			modifier = {
-				factor = 2
-				OR = {
-					check_variable = { resource@rubber < 0 }
-					check_variable = { resource_imported@rubber > 20.0 }
-				}
-			}
-			modifier = {
-				factor = 2
-				synthetic_refinery > 10
 			}
 			modifier = {
 				factor = 0.5
@@ -1575,22 +1562,8 @@ technologies = {
 					tag = GER
 					tag = ITA
 				}
+				has_war = yes
 				factor = 15
-			}
-			modifier = {
-				factor = 2
-				synthetic_refinery > 5
-			}
-			modifier = {
-				factor = 2
-				OR = {
-					check_variable = { resource@rubber < 0 }
-					check_variable = { resource_imported@rubber > 20.0 }
-				}
-			}
-			modifier = {
-				factor = 2
-				synthetic_refinery > 10
 			}
 			modifier = {
 				factor = 0.5
@@ -1639,28 +1612,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 0.5
-			modifier = {
-				OR = {
-					tag = GER
-					tag = ITA
-				}
-				factor = 15
-			}
-			modifier = {
-				factor = 2
-				synthetic_refinery > 5
-			}
-			modifier = {
-				factor = 2
-				OR = {
-					check_variable = { resource@rubber < 0 }
-					check_variable = { resource_imported@rubber > 20.0 }
-				}
-			}
-			modifier = {
-				factor = 2
-				synthetic_refinery > 10
-			}
 			modifier = {
 				factor = 0.5
 				rubber > 10
@@ -1822,6 +1773,7 @@ technologies = {
 			construction_tech
 			excavation_tech
 		}
+
 		
 		folder = {
 			name = industry_folder
@@ -1861,7 +1813,6 @@ technologies = {
 
 		production_speed_buildings_factor = 0.10
 		industry_repair_factor = 0.10
-		
 		path = {
 			leads_to_tech = construction4 
 			research_cost_coeff = 1
@@ -1961,6 +1912,13 @@ technologies = {
 
 		production_speed_buildings_factor = 0.10
 		industry_repair_factor = 0.10
+
+		on_research_complete = {
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_PROJECT
+				PROJECT = sp_commercial_nuclear_reactor	
+			}
+		}
 		
 		path = {
 			leads_to_tech = construction5 

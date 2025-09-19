@@ -34,6 +34,24 @@ bookmarks = {
 			}
 		}
 
+		"VLA"={
+			history = "VLA_BENELUX_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"LIE"={
+			history = "LIE_BENELUX_DESC"
+			ideology = communism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
 		"---"={
 			history = "OTHER_GERMAN_WARLORDS_DESC"
 		}

@@ -4,19 +4,14 @@ state={
 	name="STATE_454"
 
 	history={
-		owner = BEL
-		add_core_of = BEL
+		owner = VLA
+		add_core_of = VLA
 		buildings = {
 			infrastructure = 4
-			8746 = { naval_base = 3 coastal_bunker = 1 }
-			19898 = { coastal_bunker = 1 }
-			12255 = { coastal_bunker = 1 }
-			12297 = { coastal_bunker = 1 }
-			6128 = { coastal_bunker = 1 }
+			8746 = { naval_base = 3 }
 			industrial_complex = 2
 			arms_factory = 1
 		}
-		add_core_of = FLA
 		victory_points = {
 			8746 10 
 		}

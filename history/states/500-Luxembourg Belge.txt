@@ -3,17 +3,12 @@ state={
 	id=500
 	name="STATE_500"
 	history={
-		owner = BEL
-		add_core_of = BEL
+		owner = LUX
+		add_core_of = LUX
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			7944 = { bunker = 1 }
-			7962 = { bunker = 1 }
-			12736 = { bunker = 1 }
-			12806 = { bunker = 1 }
 		}
-		add_core_of = WLN
 		victory_points = {
             7962 1 #Marche-en-Famenne
         }

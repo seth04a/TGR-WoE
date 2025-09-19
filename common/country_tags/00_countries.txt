@@ -2,3 +2,7 @@
 WOS = "countries/Wolfschanze.txt"
 ROT = "countries/Rotterdam.txt"
 LIM = "countries/Limburg.txt"
+VLA = "countries/Vlaanderen.txt"
+LIE = "countries/Liege.txt"
+LUX = "countries/Luxemburg.txt"
+BEL = "countries/Belgium.txt"

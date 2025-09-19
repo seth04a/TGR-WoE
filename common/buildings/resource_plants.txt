@@ -1,0 +1,167 @@
+buildings = {
+    iron_mine = {
+        base_cost = 1000
+        per_level_extra_cost = 2000
+        infrastructure_construction_effect = yes
+        refinery = yes
+
+        icon_frame = 33
+
+        local_resources_steel = 10
+
+        level_cap = {
+            state_max = 5
+        }
+    }
+
+    steel_mill = {
+        base_cost = 10000
+        per_level_extra_cost = 5000
+        infrastructure_construction_effect = yes
+        refinery = yes
+
+        icon_frame = 28
+
+        local_resources_steel = 50
+
+        level_cap = {
+            state_max = 5
+        }
+    }
+
+    oil_well = {
+        base_cost = 1000
+        per_level_extra_cost = 2000
+        infrastructure_construction_effect = yes
+        refinery = yes
+
+        local_resources_oil = 10
+
+        icon_frame = 10
+
+        level_cap = {
+            state_max = 5
+        }
+    }
+
+    industrial_refinery = {
+        base_cost = 10000
+        per_level_extra_cost = 5000
+        infrastructure_construction_effect = yes
+        refinery = yes
+
+        local_resources_oil = 50
+
+        icon_frame = 10
+
+        level_cap = {
+            state_max = 5
+        }
+    }
+
+    rubber_plantation = {
+        base_cost = 1000
+        per_level_extra_cost = 2000
+        infrastructure_construction_effect = yes
+        refinery = yes
+
+        local_resources_rubber = 10
+
+        icon_frame = 36
+
+        level_cap = {
+            state_max = 5
+        }
+    }
+
+    vulcanization_plant = {
+        base_cost = 10000
+        per_level_extra_cost = 5000
+        infrastructure_construction_effect = yes
+        refinery = yes
+
+        local_resources_rubber = 50
+
+        icon_frame = 29
+
+        level_cap = {
+            state_max = 5
+        }
+    }
+
+    bauxite_mine = {
+        base_cost = 1000
+        per_level_extra_cost = 2000
+        infrastructure_construction_effect = yes
+        refinery = yes
+
+        local_resources_aluminium = 10
+
+        icon_frame = 35
+
+        level_cap = {
+            state_max = 5
+        }
+    }
+
+    tungsten_mine = {
+        base_cost = 1000
+        per_level_extra_cost = 2000
+        infrastructure_construction_effect = yes
+        refinery = yes
+
+        local_resources_tungsten = 10
+
+        icon_frame = 34
+
+        level_cap = {
+            state_max = 5
+        }
+    }
+
+    aluminum_mill = {
+        base_cost = 10000
+        per_level_extra_cost = 5000
+        infrastructure_construction_effect = yes
+        refinery = yes
+
+        local_resources_aluminium = 50
+
+        icon_frame = 30
+
+        level_cap = {
+            state_max = 5
+        }
+    }
+
+    chromium_mine = {
+        base_cost = 1000
+        per_level_extra_cost = 2000
+        infrastructure_construction_effect = yes
+        refinery = yes
+
+        local_resources_chromium = 10
+
+        icon_frame = 32
+
+        level_cap = {
+            state_max = 5
+        }
+    }
+
+    rare_earth_refinery = {
+        base_cost = 10000
+        per_level_extra_cost = 5000
+        infrastructure_construction_effect = yes
+        refinery = yes
+
+        local_resources_tungsten = 25
+        local_resources_chromium = 25
+
+        icon_frame = 31
+
+        level_cap = {
+            state_max = 5
+        }
+    }
+}

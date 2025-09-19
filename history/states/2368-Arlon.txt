@@ -2,13 +2,11 @@ state={
 	id=2368
 	name="STATE_2368"
 	history={
-		owner = BEL
-		add_core_of = BEL
+		owner = LUX
+		add_core_of = LUX
 		buildings = {
 			infrastructure = 2
-			12901 = { bunker = 1 }
 		}
-		add_core_of = WLN
 		victory_points = {
             12901 2 #Arlon
         }
