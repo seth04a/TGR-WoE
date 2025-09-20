@@ -5,6 +5,7 @@ state={
 	history={
 		owner = LIE
 		add_core_of = LIE
+		add_core_of = BEL
 		buildings = {
 			infrastructure = 2
 		}

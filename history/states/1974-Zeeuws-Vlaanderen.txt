@@ -5,6 +5,8 @@ state={
 	history={
 		owner = VLA
 		add_core_of = VLA
+		add_core_of = HOL
+		add_core_of = WST
 		buildings = {
 			infrastructure = 3
 		}

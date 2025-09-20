@@ -19,11 +19,11 @@
 
  VLA:0 "Koninkrijk Vlaanderen"
  VLA_DEF:0 "Het Koninkrijk van Vlaanderen"
- VLA_adj:0 "Vlaams"
+ VLA_adj:0 "Vlaamse"
 
- LIE:0 "Commune de Liège"
- LIE_DEF:0 "La Commune de Liège"
- LIE_ADJ:0 "Lièger"
+ LIE:0 "Commune de Liége"
+ LIE_DEF:0 "La Commune de Liége"
+ LIE_ADJ:0 "Liéger"
 
  LUX:0 "Groussherzogtum Lëtzebuerg"
  LUX_DEF:0 "Groussherzogtum Lëtzebuerg"
@@ -31,4 +31,12 @@
 
  BEL:0 "Belgisch Syndicaat"
  BEL_DEF:0 "Het Syndicaat van België"
- BEL_ADJ:0 "Syndicaat Belgisch"
+ BEL_ADJ:0 "Belgisch Syndicaat"
+
+ WST:0 "Westland"
+ WST_DEF:0 "Westland"
+ WST_ADJ:0 "Westland"
+
+ HOL:0 "Nederland"
+ HOL_DEF:0 "Koninkrijk Nederland"
+ HOL_ADJ:0 "Nederland"

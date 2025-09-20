@@ -6,6 +6,8 @@ state={
 	history={
 		owner = ROT
 		add_core_of = ROT
+		add_core_of = HOL
+		add_core_of = WST
 		buildings = {
 			infrastructure = 4
 			1809 = { naval_base = 10 }

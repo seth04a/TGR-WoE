@@ -1,0 +1,15 @@
+characters={
+    HOL_Jan={
+		name=HOL_Jan
+		portraits={
+			civilian={
+				large=GFX_portrait_HOL_Jan
+			}
+		}
+		country_leader={
+			ideology=socialism
+            traits = { }
+			expire="2000.1.1.1"
+		}
+	}
+}

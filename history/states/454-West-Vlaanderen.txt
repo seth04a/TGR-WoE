@@ -6,6 +6,7 @@ state={
 	history={
 		owner = VLA
 		add_core_of = VLA
+		add_core_of = BEL
 		buildings = {
 			infrastructure = 4
 			8746 = { naval_base = 3 }

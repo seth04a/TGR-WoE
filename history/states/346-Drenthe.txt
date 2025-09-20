@@ -6,7 +6,8 @@ state={
 		6495 7990 11417 11472 11499 11505 11539 11551 20695 
 	}
 	history={
-		owner = HOL
+		owner = WST
+		add_core_of = WST
 		add_core_of = HOL
 		buildings = {
 			infrastructure = 3

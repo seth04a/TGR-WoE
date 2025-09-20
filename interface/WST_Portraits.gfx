@@ -1,0 +1,6 @@
+spritetypes = {
+    spritetype = {
+        name = "GFX_portrait_WST_Anton"
+        texturefile = "gfx/leaders/WST/Portrait_WST_Anton.png"
+    }
+}

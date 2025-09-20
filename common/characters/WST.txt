@@ -1,0 +1,15 @@
+characters={
+    WST_Anton={
+		name=WST_Anton
+		portraits={
+			civilian={
+				large=GFX_portrait_WST_Anton
+			}
+		}
+		country_leader={
+			ideology=rexism
+            traits = { }
+			expire="2000.1.1.1"
+		}
+	}
+}

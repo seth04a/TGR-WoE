@@ -1,0 +1,6 @@
+spritetypes = {
+    spritetype = {
+        name = "GFX_portrait_HOL_Jan"
+        texturefile = "gfx/leaders/HOL/Portrait_HOL_Jan.png"
+    }
+}
